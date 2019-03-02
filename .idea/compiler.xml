@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
         <module name="eureka-server" />
         <module name="SpringCloud-Zuul" />
         <module name="video-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zuul-server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
